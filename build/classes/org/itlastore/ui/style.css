@@ -1,0 +1,41 @@
+.root {
+    -fx-background-image: url("resources/grid-pattern.png");
+    -fx-background-color: linear-gradient(rgb(51, 121, 158),rgb(219, 242, 255));
+    -fx-font-family: "Roboto";
+}
+
+.label {
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+.titleLabel {
+    -fx-font-size: 16;
+}
+
+.white-label {
+    -fx-font-size: 20px;
+    -fx-text-fill: #fff;
+}
+
+.main {
+    -fx-background-image: url("resources/grid-pattern.png");
+    -fx-background-color: rgb(51, 121, 158);
+    -fx-font-family: "Roboto";
+}
+
+.button {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.button:hover {
+    -fx-text-fill: #333;
+    -fx-background-color: linear-gradient(#61a4a1, #2A5750);
+}
+
+.button:focused {
+    -fx-text-fill: #fff;
+    -fx-background-color: linear-gradient(#61a4a1, #ccc);
+}
